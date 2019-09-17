@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-family: 'Kalam', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+body{
+    background-color: #d6f2fb
+}
+
+.article{
+    padding-top: 70px;
+    background-color: #9be0f7;
+    height: 200px;
+    text-align: center;
+}
+.footer{
+    background-color: #0e8fba;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    height: 200px;
+    text-align: right;
+    color: #d6f2fb;
+}
+
+p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
