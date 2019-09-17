@@ -60,6 +60,44 @@ header{
     color: white;    
 }
 
+#section-temoin{
+    background-color: #62d8ff;
+}
+.temoin{
+    display: flex;
+    flex-direction: column;
+}
+.temoin div{
+    background-color: white;;
+    padding: 4em; 
+    text-align: center;   
+    width: 50vw;
+    margin: 2vw 1vw; 
+}
+.temoin1{
+    position: relative;
+    justify-content: flex-start;
+}
+.temoin2{
+    position: relative;
+    align-self: flex-end;
+}
+.temoin3{
+    position: relative;
+    justify-content: flex-start;
+}
+.temoin-pic1, .temoin-pic2, .temoin-pic3{
+    position: absolute;
+    height: 10vw;;
+    left: 4vw;
+    top: 4vw;
+}
+.author{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
 
 
 
