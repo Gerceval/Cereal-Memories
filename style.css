@@ -51,7 +51,80 @@ header{
     color: white;    
 }
 
+/*css commun*/
 
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #d6f2fb
+}
+
+
+/*Navigation*/
+
+#logo{
+    width: 1.5em;
+}
+
+
+.items-nav{
+    display: flex; 
+    justify-content: space-between;
+    align-items: baseline;        
+}
+
+header{
+    background-image: url(ressources/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.div-nav{
+    display: flex;
+    align-items: baseline;    
+}
+
+.div-nav li{
+    font-weight: 700;
+    color: white;
+    list-style: none;
+    padding: 0.5em;   
+}
+
+#title-banner{
+    font-family: 'Kalam', cursive;
+    font-size: 70px;
+    text-align: center;
+    padding: 2em 0;
+    color: white;    
+}
+
+/* Formulaire */
+.formulaire { 
+    display: flex;
+    flex-direction: column;
+ }
+
+input[type="text"] { 
+   margin: 0 20px 20px 0px;
+}
+   
+input[value="Envoyer"] {
+       padding: 12px 30px;
+       cursor: pointer;
+       border: 1;
+       outline: none;
+       margin: 0;
+       font-weight: bold; 
+       margin-top: 20px;
+}
+   
+   
 
 
 
