@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <link href="https://fonts.googleapis.com/css?family=Kalam:700|Montserrat:300,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kalam:700|Montserrat:300,700|Aleo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" /> 
     <title>Cereal Memories</title>
   </head>
@@ -17,34 +17,66 @@
       <nav class="nav">
         <ul class="items-nav">
           <div class="div-nav">
-            <li><img id="logo" src="ressources/logo_navbar.png"></li>
-            <li>Cereal Memories</li>
+            <li><a href="#"><img id="logo" src="ressources/logo_navbar.png"></a></li>
+            <li><a href="#">Cereal Memories</li>
           </div>
           <div class="div-nav">
-            <li>Articles</li>
-            <li>Auteurs</li>
-            <li>Contact</li>
+            <li><a href="#">Articles</a></li>
+            <li><a href="#">Auteurs</a></li>
+            <li><a href="#">Contact</a></li>
+            <li>
+              <input type="search" id="site-search" name="search" placeholder="Chercher dans le site">
+            </li>
+            <li>
+              <button type="submit">Q</button>
+            </li>
           </div>
         </ul>
       </nav>
       <h1 id="title-banner">Cereal Memories</h1>
     </header>
+
+
+
+
+    
+    <section id="section-temoin">
+        <div class="temoin">
+          
+          <div class="temoin1">
+            <p>"J'aime trop la vie et je suis content" <br><span class="author">- Jean</span></p>
+            <img class="temoin-pic1" src="ressources/logo_navbar.png">
+          </div>
+          
+          <div class="temoin2">
+            <p>"J'aime trop le citron, c'est rigolo" <br><span class="author">- Mat</span></p>
+            <img class="temoin-pic2" src="ressources/logo_navbar.png">
+          </div>
+          
+          <div class="temoin3">
+            <p>"Le caca des canards c'est caca, faut pas toucher" <br><span class="author">- Kadok</span></p>
+            <img class="temoin-pic3" src="ressources/logo_navbar.png">
+          </div>
+          
+        </div>
+      </section>
+      
+  
+  
+
+    <footer>
+      <ul class="items-footer">
+        <div class="div-footer">  
+          <li><a href="#"><img id="logo" src="ressources/logo_navbar.png"></a></li>
+        </div>
+        <div class="div-footer">
+          <li><a href="#">A propos</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#"><img class="icone" src="ressources/logo-facebook.png" alt="facebook"></a></li>
+          <li><a href="#"><img class="icone" src="ressources/logo-twitter.png" alt="twitter"></a></li>
+          <li><a href="#"><img class="icone" src="ressources/logo-insta.png" alt="instagram"></a></li>
+        </div>  
+      </ul>
+    </footer>
   </body>
-
-
-
-
-
-  <footer>
-    <ul>
-      <li><img id="logo" src="ressources/logo_navbar.png"></li>
-      <li>A propos</li>
-      <li>Contact</li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-  </footer>
-
-
 </html>
