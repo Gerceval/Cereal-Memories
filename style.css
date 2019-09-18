@@ -209,6 +209,8 @@ header{
     background-color: white;
 }
 
+/*titres formulaire et contact */
+
 
 .profil{
     width: 800px;
@@ -218,29 +220,60 @@ header{
 
 
 
+
 /* Formulaire */
+
 .formulaire { 
-    display: flex;
-    flex-direction: column;
-    margin-left: 30%;
-    margin-right: 30%
-  }
- 
- input[type="text"] { 
-    margin-top: 1em;
+   display: flex;
+   flex-direction: column;
+   margin-left: 30%;
+   margin-right: 30%
  }
-    
- input[value="Envoyer"] {
-        padding: 12px 30px;
-        cursor: pointer;
-        border: 1;
-        margin-top: 1em;
-        margin-left: 80%;
-   
- }
-   
+
+input[type="text"] { 
+margin-top: 1em;
+}
+
+textarea {
+ min-height : 180px;
+}
+
+label {
+  margin-top: 1em;
+  margin-bottom: 0.8em;}
 
 
+
+   
+input[value="Envoyer"] {
+  padding: 12px 30px;
+  cursor: pointer;
+  border: 1;
+  margin-top: 1em;
+  margin-left: 70%;
+  
+}
+   
+/* A propos */
+
+p{
+  margin-left: 20%;
+  margin-right: 20%; 
+}
+
+#partagezavecnous {
+  font-weight: bold;
+}
+#lateam {
+  text-align: right;
+}
+
+img.phototeam {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+}
 
 /* FOOTER */
 
@@ -364,3 +397,31 @@ footer{
 
 }
 
+@media screen and (max-width: 640px){
+  /* Formulaire */
+    .formulaire { 
+     display: flex;
+     flex-direction: column;
+     margin-left: 5%;
+     margin-right: 5%
+   }
+    
+  input[value="Envoyer"] {
+         padding: 12px 35px;
+         cursor: pointer;
+         border: 1;
+         margin-top: 1em;
+         margin-left: 20%;
+    
+  }
+
+p{
+  text-align: center; 
+}
+ 
+
+  br {
+    line-height: 1.5;
+}  
+    
+}  
