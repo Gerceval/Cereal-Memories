@@ -107,22 +107,22 @@ header{
 .formulaire { 
     display: flex;
     flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%
+  }
+ 
+ input[type="text"] { 
+    margin-top: 1em;
  }
-
-input[type="text"] { 
-   margin: 0 20px 20px 0px;
-}
+    
+ input[value="Envoyer"] {
+        padding: 12px 30px;
+        cursor: pointer;
+        border: 1;
+        margin-top: 1em;
+        margin-left: 80%;
    
-input[value="Envoyer"] {
-       padding: 12px 30px;
-       cursor: pointer;
-       border: 1;
-       outline: none;
-       margin: 0;
-       font-weight: bold; 
-       margin-top: 20px;
-}
-   
+ }
    
 
 
