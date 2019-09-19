@@ -16,10 +16,6 @@ a{
 }
 
 
-
-
-
-
 /*Navigation*/
 
 #logo{
@@ -66,7 +62,7 @@ header{
 /* TEMOIN */
 
 #section-temoin{
-    background-color: #62d8ff;
+    background-color: #d6f2fb;
 }
 .temoin{
     display: flex;
@@ -209,76 +205,132 @@ header{
     background-color: white;
 }
 
-/*titres formulaire et contact */
 
+.profil{
+    width: 800px;
+    border-radius: 50%;
+    margin-right: 30px;
 
-
-
-
-
-
-/* Formulaire */
-
-.formulaire { 
-   display: flex;
-   flex-direction: column;
-   margin-left: 30%;
-   margin-right: 30%
- }
-
-input[type="text"] { 
-margin-top: 1em;
-}
-
-textarea {
- min-height : 180px;
-}
-
-label {
-  margin-top: 1em;
-  margin-bottom: 0.8em;}
-
-
-
-   
-input[value="Envoyer"] {
-  padding: 12px 30px;
-  cursor: pointer;
-  border: 1;
-  margin-top: 1em;
-  margin-left: 70%;
-  
-}
-   
-/* A propos */
-
-p{
-  margin-left: 20%;
-  margin-right: 20%; 
 }
 
 
-#partagezavecnous {
-  font-weight: bold;
-}
-#lateam {
-  text-align: right;
-}
-
-img.phototeam {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 30px;
-}
-
- .citationaccueil p{
+.citationaccueil p{
     text-align: center;
     margin: 80px 10px 80px 10px;
     color: #0e8fba;
     font-size: 17pt;
 
 }
+
+/*Titres formulaire et contact */
+.titrescontact {
+    font-size: 3em;
+    letter-spacing: 0.4em;
+    text-align: center;
+    margin: 90px auto 50px auto;
+    text-align:center
+   
+}
+
+/* A propos */
+
+p{
+    margin-left: 30%;
+    margin-right: 30%; 
+  }
+  
+  
+  #partagezavecnous {
+    font-weight: bold;
+  }
+  #lateam {
+    text-align: right;
+  }
+  
+  img.phototeam {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 30px;
+    }
+  
+#partagezavecnous {
+    font-weight: bold;
+      }
+ #lateam {
+    text-align: right;
+ }
+
+/* Formulaire */
+
+.arriereplanformulaire{
+ background-color: white;
+ padding-top: 0.5px;
+}
+
+:focus{outline: none;}
+
+.col-3{
+  display: flex;
+  flex-direction: column;
+  width: 27.33%; 
+  margin: 40px 36%; 
+  position: relative;
+  } 
+
+
+input[type="text"]{
+  font-family: 'Montserrat', sans-serif;
+  color: #333; 
+  box-sizing: border-box; 
+  letter-spacing: 1px;}
+
+
+
+.effect-8{
+  border: 1px solid #ccc;
+  padding: 7px 14px 9px; 
+  transition: 0.4s;
+}
+
+
+.effect-8 ~ .focus-border:before,
+.effect-8 ~ .focus-border:after{content: ""; position: absolute; top: 0; left: 0; width: 0; height: 2px; background-color: #62d8ff; transition: 0.4s;}
+.effect-8 ~ .focus-border:after{top: auto; bottom: 0; left: auto; right: 0;}
+.effect-8 ~ .focus-border i:before,
+.effect-8 ~ .focus-border i:after{content: ""; position: absolute; top: 0; left: 0; width: 2px; height: 0; background-color: #62d8ff; transition: 0.5s;}
+.effect-8 ~ .focus-border i:after{left: auto; right: 0; top: auto; bottom: 0;}
+.effect-8:focus ~ .focus-border:before,
+.effect-8:focus ~ .focus-border:after{width: 100%; transition: 0.4s;}
+.effect-8:focus ~ .focus-border i:before,
+.effect-8:focus ~ .focus-border i:after{height: 100%; transition: 0.5s;}
+
+textarea {
+    min-height : 180px;
+   }
+
+/*bouton envoyer */
+.boutonformu{
+  margin-right:43%;
+  margin-left:57%;
+}
+
+input[value="Envoyer"] {
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #62d8ff;
+    border-color: #62d8ff;
+    outline: none;
+    font-weight: bold;    
+}
+
+input[value="Envoyer"]:hover {
+    background-color:#62d8ff;
+    color: white;
+}
+
 
 /*articles*/
 
@@ -426,39 +478,35 @@ footer div{
         width: 90%;
         padding: 30px 0;   
     }
-    
-    
-
-    
-   
-    /* Formulaire */
-    .formulaire { 
-        display: flex;
-        flex-direction: column;
-        margin-left: 5%;
-        margin-right: 5%
-      }
-       
-     input[value="Envoyer"] {
-            padding: 12px 35px;
-            cursor: pointer;
-            border: 1;
-            margin-top: 1em;
-            margin-left: 20%;
-       
-     }
-   
-   p{
-     text-align: center; 
-   }
-    
-   
-     br {
-       line-height: 1.5;
-   } 
 
 
+    /*TEMOIN*/
+    
 
+    .temoin1, .temoin2, .temoin3{
+        padding: 0 7em 0 7em;
+        border-radius: 0% 0% 215% 215%;
+        margin: 1.5em 0;
+    }
+    .temoin-pic1, .temoin-pic2, .temoin-pic3{
+        height: 5em;
+    }
+    .temoin div{
+        align-self: center;
+    }
+    .temoin-pic3, .temoin-pic2, .temoin-pic1{
+        align-self: center;
+    }
+    .authorMiddle{
+        margin-top: 25px;
+        margin-left: 150px;
+        margin-right: 20%;
+    }
+    .temoin div p{
+        align-self: inherit;
+        font-size: 20px;
+        white-space: nowrap;
+    }
 
 
    
@@ -488,8 +536,45 @@ footer div{
         flex-direction: row;
     }
       
+    
+
+   
+  /*A propos */
   
+  img.phototeam {
+    max-width: 80%;
+  }
+  /* Formulaire */
+  
+  .col-3{
+    display: flex;
+    flex-direction: column;
+    width: 62%; 
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    
+} 
 
     
+input[value="Envoyer"] {
+    padding: 12px 35px;
+    cursor: pointer;
+    border: 1;
+    margin-top: 1em;
+    margin-left: 20%;
+
+}
+
+     
+p{
+    text-align: center; 
+}
+      
+br {
+    line-height: 1.5;
+}  
+         
+  
 }
 

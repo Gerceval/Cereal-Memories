@@ -5,28 +5,35 @@
   <meta name="viewport" content="width=device-width">
   <link href="https://fonts.googleapis.com/css?family=Kalam:700|Montserrat:300,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" /> 
+
+
   <title>Cereal Memories</title>
 </head>
 <body>
 
-    
-  <h1>Cereal Memories</h1>
-        
-  <h2> Contact </h2>
-<br> 
-    <form class="formulaire">
-        <label for="Nom Prénom">Nom Prénom:</label>
-        <input  type="text"  />
-        <input type="text" placeholder="@" /> 
-      <br> 
-        <label for="Message">Message:</label>
-        <textarea type="text"></textarea>
-        <input type="submit" value="Envoyer"/>
-    </form>  
-    
-    <br>
-    
-  <h2> A propos </h2>
+  <header>
+    <nav class="nav">
+      <ul class="items-nav">
+        <div class="div-nav">
+          <li><a href="#"><img id="logo" src="ressources/logo_navbar.png"></a></li>
+          <li><a href="#">Cereal Memories</li>
+        </div>
+        <div class="div-nav">
+          <li><a href="#">Articles</a></li>
+          <li><a href="#">Auteurs</a></li>
+          <li><a href="#">Contact</a></li>
+          <li>
+            <input type="search" id="site-search" name="search" placeholder="Chercher dans le site">
+          </li>
+          <li>
+            <button id="buttonSearch" type="submit">Q</button>
+          </li>
+        </div>
+      </ul>
+    </nav>  
+  </header>
+
+  <h2 class= "titrescontact"> A propos </h2>
   <br>
   <p> Nous avons tous passés des matinées à regarder des dessins animés avant d'aller à l'école ou pendant nos vacances devant un bol de céréales. 
   </p>
@@ -45,14 +52,66 @@
   <br>
   <br>
     <img class=phototeam src="file:///home/user/projet1/Cereal-Memories/ressources/teamcereal%20.jpg" alt=""/>
-          
+
+   <br> 
+   <br>
+
+  <section class="arriereplanformulaire">
+  <h2 class= "titrescontact"> Contact </h2>
+ 
+    <div class="container"></div>    	
+     <div class="col-3">
+      <input class="effect-8" type="text" placeholder="Nom Prénom">
+        <span class="focus-border">
+          <i></i>
+        </span>
+      </div>
+  
+      <div class="col-3">
+       <input class="effect-8" type="text" placeholder="@">
+        <span class="focus-border">
+          <i></i>
+        </span>
+      </div>
+  
+      <div class="col-3">
+       <textarea class="effect-8" type="text" placeholder="Message"></textarea>
+        <span class="focus-border">
+          <i></i>
+        </span>
+      </div>     
+
+     <div class="boutonformu">
+     <input type="submit" value="Envoyer" class="submit" />
+ </div> 
+   <br>
+    <br>
+     </section>
+
       
- </body>
-
-
-<footer>
-
+  </body>
+      
+    
+ <footer>
+ <ul class="items-footer">
+   <div class="div-footer">  
+     <li><a href="#"><img id="logo" src="ressources/logo_navbar.png"></a></li>
+   </div>
+   <div class="div-footer">
+     <li><a href="#">A propos</a></li>
+     <li><a href="#">Contact</a></li>
+     <li><a href="#"><img class="icone" src="ressources/logo-facebook.png" alt="facebook"></a></li>
+     <li><a href="#"><img class="icone" src="ressources/logo-twitter.png" alt="twitter"></a></li>
+     <li><a href="#"><img class="icone" src="ressources/logo-insta.png" alt="instagram"></a></li>
+   </div>  
+ </ul>
 </footer>
 
 
 </html>
+<style>
+ header{
+     background-image: none;
+     background-color: #0E8FBA;
+ }
+</style>
