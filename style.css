@@ -183,6 +183,7 @@ header{
 
 
 
+
 /* auteur de l'article*/
 
 .citation{
@@ -193,7 +194,6 @@ header{
 
 .authorSection{
     display: flex;
-    width: 50%;
     margin-left: auto;
     margin-right: auto;
     padding: 60px 0;
@@ -207,9 +207,12 @@ header{
 
 
 .profil{
-    width: 800px;
+    width: 50%;
+    height: 50%;
     border-radius: 50%;
     margin-right: 30px;
+    position: relative;
+    left: 10%;
 
 }
 
@@ -286,11 +289,11 @@ input[type="text"]{
   letter-spacing: 1px;}
 
 
-
-.effect-8{
-  border: 1px solid #ccc;
-  padding: 7px 14px 9px; 
-  transition: 0.4s;
+#partagezavecnous {
+  font-weight: bold;
+}
+#lateam {
+  text-align: right;
 }
 
 
@@ -315,32 +318,30 @@ textarea {
   margin-left:57%;
 }
 
-input[value="Envoyer"] {
-    background-color: white;
-    padding: 8px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    color: #62d8ff;
-    border-color: #62d8ff;
-    outline: none;
-    font-weight: bold;    
+ 
+
+
+
+
+
+
+.citationaccueil p{
+    text-align: center;
+    margin: 100px 10px 100px 10px;
+    color: #0e8fba;
+    font-size: 25pt;
 }
 
-input[value="Envoyer"]:hover {
-    background-color:#62d8ff;
-    color: white;
-}
 
+/*Articles*/
 
-/*articles*/
 
 .cartoonimg {
     border-radius: 8px;
     width: 100%;
     height: 300px;
     object-fit: cover;
-    max-width: 280px;
-  }
+}
 
 
 
@@ -355,15 +356,13 @@ input[value="Envoyer"]:hover {
     margin: 20px 4px 50px 4px;
     padding: 8px;
     border-radius: 8px;
-    
 
 }
+
 .imagepokemon, .imagedragonball, .imagesonic{
-    width: 30%;
     margin-left: 4px;
     margin-right: 4px;
     background:white;
-    
     padding: 0;     
     display: flex;
     align-items: center;
@@ -373,18 +372,28 @@ input[value="Envoyer"]:hover {
 
 .text-justify {
     text-align: justify;
-    text-justify:auto;
-    font-size: 10pt;
+    text-justify: auto;
+    font-size: 12pt;
     color: #0e8fba;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin: 20px 0px 20px 0px;
 }
+
+
 
 .articlesacceuil a{
     background-color: #0e8fba;
     margin-top: 4px;
+    margin-bottom: 15px;
     border: none;
     border-radius: 4px;
     padding: 4px;
     color: white;
+}
+
+.articlesacceuil a:hover{
+    background-color: #62d8ff;
 }
 
 .articlesacceuil h2{
@@ -399,8 +408,6 @@ button{
     font-family: 'Aleo', serif;
 }
 
-
-/* FOOTER */
 
 footer{
     background-color: #0e8fba;
@@ -482,6 +489,13 @@ footer div{
 
     /*TEMOIN*/
     
+    .profil{
+        display: block;
+        width: 100px;
+        margin-right: auto;
+        margin-left: auto;
+        left: 0%;
+    }
 
     .temoin1, .temoin2, .temoin3{
         padding: 0 7em 0 7em;
@@ -539,42 +553,44 @@ footer div{
     
 
    
-  /*A propos */
-  
-  img.phototeam {
-    max-width: 80%;
-  }
-  /* Formulaire */
-  
-  .col-3{
-    display: flex;
-    flex-direction: column;
-    width: 62%; 
-    margin-left:auto;
-    margin-right:auto;
-    position: relative;
-    
-} 
+     br {
+       line-height: 1.5;
+   }  
+   
+  /* Navigation */
+
+   header{
+      background-position: center;
 
     
-input[value="Envoyer"] {
-    padding: 12px 35px;
-    cursor: pointer;
-    border: 1;
-    margin-top: 1em;
-    margin-left: 20%;
+    }
 
-}
+    #title-banner{
+        font-size: 50px;
+    }
 
-     
-p{
-    text-align: center; 
-}
-      
-br {
-    line-height: 1.5;
-}  
-         
-  
+   /* Articles */
+
+   .citationaccueil p{
+       font-size: 20px;
+   }
+
+
+    .article{
+        flex-direction: column;
+        
+    }
+    
+    .imagepokemon, .imagedragonball, .imagesonic{
+        width: 90%;
+    }
+
+    body{
+        background:white;
+        }
+
+    .article a {
+        margin-bottom: 20px;
+    }
 }
 
