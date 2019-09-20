@@ -41,7 +41,7 @@ header{
     align-items: baseline;    
 }
 
-.div-nav li{
+.div-nav a{
     font-weight: 700;
     color: white;
     list-style: none;
@@ -57,85 +57,182 @@ header{
 }
 
 
-
-
-/* TEMOIN */
-
-#section-temoin{
-    background-color: #d6f2fb;
-}
-.temoin{
-    display: flex;
-    flex-direction: column;
-}
-.temoin div{
-    background-color: white;
-    padding: 2em 2em 1em 1em;
-    text-align: center;   
-    width: 50vw;
-    font-size: 28px; 
-}
-.temoin div p{
-    font-size: 22px;
-}
-.temoin1{
-    margin-top: 1vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    border-radius: 0% 15% 215% 0%;
-}
-.temoin2{
-    display: flex;
-    flex-direction: column;
-    align-self: flex-end;
-    border-radius: 15% 0% 0% 215%;
-}
-.temoin3{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    border-radius: 0% 15% 215% 0%;
+.citationaccueil p {
+	text-align: center;
+	margin: 80px 10px 80px 10px;
+	color: #0e8fba;
+	font-size: 30pt; 
 }
 
-.temoin-pic1, .temoin-pic2, .temoin-pic3{
-    border-radius: 50%;
-    height: 15vw;
+
+
+/*Articles*/
+
+
+.cartoonimg {
+    border-radius: 8px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
 }
-.temoin-pic1{
-    align-self: flex-end;
-}
-.temoin-pic2{
-    align-self: flex-start;
-}
-.temoin-pic3{
-    align-self: flex-end;
-}
-.author{
+
+
+
+.article{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 22px;
-    font-weight: 20px;
-    margin-top: 25px;
-    margin-left: 150px;
 }
-.authorMiddle{
+
+.articlesacceuil{
+    color: black;
+    margin: 20px 4px 50px 4px;
+    padding: 8px;
+    border-radius: 8px;
+
+}
+
+.imagepokemon, .imagedragonball, .imagesonic{
+    width: 33%;
+    margin-left: 4px;
+    margin-right: 4px;
+    background:white;
+    padding: 0;     
     display: flex;
-    justify-content: center;
     align-items: center;
-    font-size: 16px;
-    font-weight: 20px;
-    margin-top: 25px;
-    margin-right: 150px;
+    flex-direction: column;
+    border-radius: 4px;
 }
-.titreDA{
+
+.text-justify {
+    text-align: justify;
+    text-justify: auto;
+    font-size: 12pt;
+    color: #0e8fba;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin: 20px 0px 20px 0px;
+}
+
+
+
+.articlesacceuil a{
+    background-color: #0e8fba;
     margin-top: 4px;
-    font-size: 12px;
-    color: grey;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 4px;
+    padding: 4px;
+    color: white;
+}
+
+.articlesacceuil a:hover{
+    background-color: #62d8ff;
+}
+
+.articlesacceuil h2{
+    color:#0e8fba;
 }
 
 
+/*TEMOIGNAGE DESKTOP*/
+
+#section-temoin {
+   background-color: #d6f2fb;
+}
+.temoin {
+   display: flex;
+   flex-direction: column;
+}
+.temoin div {
+   background-color: white;
+   text-align: center;
+   padding-top: 1em;
+   width: 40vw;
+}
+.temoin div p {
+   font-size: 25px;
+}
+.temoin1,
+.temoin2,
+.temoin3 {
+   display: flex;
+   flex-direction: column;
+   border-bottom-style: solid;
+   border-bottom-width: 10px;
+   border-color: rgb(97, 175, 248);
+}
+.temoin1 {
+   margin-top: 4vw;
+   justify-content: flex-start;
+   border-radius: 0% 15% 215% 0%;
+}
+.temoin2 {
+   align-self: flex-end;
+   border-radius: 15% 0% 0% 215%;
+}
+.temoin3 {
+   justify-content: flex-start;
+   border-radius: 0% 15% 215% 0%;
+   margin-bottom: 4vw;
+}
+.temoin-pic1,
+.temoin-pic2,
+.temoin-pic3 {
+   border-radius: 50%;
+   height: 12vw;
+   transition: all 1s ease;
+}
+.temoin-pic1 {
+   align-self: flex-end;
+}
+.temoin-pic2 {
+   align-self: flex-start;
+}
+.temoin-pic3 {
+   align-self: flex-end;
+}
+.temoin-pic1:hover {
+   -webkit-transform: scale(1.2);
+   -ms-transform: scale(1.2);
+   transform: scale(1.2) rotateZ(+10deg);
+}
+.temoin-pic2:hover {
+   -webkit-transform: scale(1.2);
+   -ms-transform: scale(1.2);
+   transform: scale(1.2) rotateZ(+10deg);
+}
+.temoin-pic3:hover {
+   -webkit-transform: scale(1.2);
+   -ms-transform: scale(1.2);
+   transform: scale(1.2) rotateZ(+10deg);
+}
+.author {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 22px;
+   margin-top: 25px;
+   margin-left: 150px;
+}
+.authorMiddle {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 22px;
+   margin-top: 25px;
+   margin-right: 150px;
+}
+.titreDA {
+   margin-top: 8px;
+   font-size: 12px;
+   color: grey;
+}
+
+
+
+
+/*page article*/
 
 .articleTitle{
     font-size: 3em;
@@ -184,48 +281,44 @@ header{
 
 
 
-/* auteur de l'article*/
+/* page article auteur de l'article*/
 
 .citation{
     font-size: 0.8em;
     font-style: italic;
     line-height: 1.7em;
+    
 }
 
 .authorSection{
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    padding: 60px 0;
+    width: 45%
     
       
 }
 
 .sectionauteur{
+    padding: 2em 0;
     background-color: white;
+    
 }
 
 
 .profil{
-    width: 50%;
-    height: 50%;
-    border-radius: 50%;
-    margin-right: 30px;
-    position: relative;
-    left: 10%;
+   margin-top: 1em; 
+   margin-right: 2em;
+   border-radius: 50%;
+   height: 10em;
+   
 
 }
 
 
-.citationaccueil p{
-    text-align: center;
-    margin: 80px 10px 80px 10px;
-    color: #0e8fba;
-    font-size: 17pt;
+/*PAGE FORMULAIRE*/
 
-}
-
-/*Titres formulaire et contact */
+/*Titres formulaire */
 .titrescontact {
     font-size: 3em;
     letter-spacing: 0.4em;
@@ -237,12 +330,14 @@ header{
 
 /* A propos */
 
-p{
-    margin-left: 30%;
-    margin-right: 30%; 
+
+  .texteapropos{
+      display: block;
+      margin: 70px auto;
+      line-height: 1.7em;
+      width: 60%;
+
   }
-  
-  
   #partagezavecnous {
     font-weight: bold;
   }
@@ -252,9 +347,8 @@ p{
   
   img.phototeam {
       display: block;
-      margin-left: auto;
-      margin-right: auto;
       border-radius: 30px;
+      margin: 50px auto;
     }
   
 #partagezavecnous {
@@ -269,6 +363,7 @@ p{
 .arriereplanformulaire{
  background-color: white;
  padding-top: 0.5px;
+ padding-bottom: 40px;
 }
 
 :focus{outline: none;}
@@ -286,7 +381,8 @@ input[type="text"]{
   font-family: 'Montserrat', sans-serif;
   color: #333; 
   box-sizing: border-box; 
-  letter-spacing: 1px;}
+  letter-spacing: 1px;
+}
 
 
 #partagezavecnous {
@@ -310,95 +406,28 @@ input[type="text"]{
 
 textarea {
     min-height : 180px;
+    border-radius: 5px;
    }
 
 /*bouton envoyer */
 .boutonformu{
-  margin-right:43%;
-  margin-left:57%;
-}
-
- 
-
-
-
-
-
-
-.citationaccueil p{
     text-align: center;
-    margin: 100px 10px 100px 10px;
+}
+input[value="Envoyer"] {
+    background-color: #d6f2fb;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
     color: #0e8fba;
-    font-size: 25pt;
-}
-
-
-/*Articles*/
-
-
-.cartoonimg {
-    border-radius: 8px;
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-}
-
-
-
-.article{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.articlesacceuil{
-    color: black;
-    margin: 20px 4px 50px 4px;
-    padding: 8px;
-    border-radius: 8px;
-
-}
-
-.imagepokemon, .imagedragonball, .imagesonic{
-    margin-left: 4px;
-    margin-right: 4px;
-    background:white;
-    padding: 0;     
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 4px;
-}
-
-.text-justify {
-    text-align: justify;
-    text-justify: auto;
-    font-size: 12pt;
-    color: #0e8fba;
-    margin-left: 4px;
-    margin-right: 4px;
-    margin: 20px 0px 20px 0px;
-}
-
-
-
-.articlesacceuil a{
-    background-color: #0e8fba;
-    margin-top: 4px;
-    margin-bottom: 15px;
-    border: none;
-    border-radius: 4px;
-    padding: 4px;
-    color: white;
-}
-
-.articlesacceuil a:hover{
-    background-color: #62d8ff;
-}
-
-.articlesacceuil h2{
-    color:#0e8fba;
-}
+    border-color: #0e8fba;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+ }
+ input[value="Envoyer"]:hover {
+   color: white;
+  background-color: #0e8fba;
+ }
 
 button{
     border: none;
@@ -415,11 +444,13 @@ footer{
 }
 
 #logo-footer{
-    size: 3em;
+    height: 7em;
 }
 
 footer{
     display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
     width: 100%;
     
     
@@ -441,16 +472,41 @@ footer div{
 }
 .icone{
     width: 2em;
+    margin: 5px;
 }
-
-
+.titreCredits {
+    font-size: 3em;
+    letter-spacing: 0.4em;
+    text-align: center;
+    margin: 90px auto 50px auto;
+    text-align:center
+}
+.artists li{
+    display: flex;
+    flex-direction: column;
+}
+.artists a{
+    color: #0e8fba;
+    text-align: center;
+    font-size: 22px;
+    margin: 2em 0;
+}
+.artists img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 @media screen and (max-width: 640px){
 
-    .div-nav li{
+
+    /*NAVIGATION*/
+
+    .div-nav a{
         font-size: 0.7em;
     }
+
     #site-search{
         display: none;
     }
@@ -458,6 +514,94 @@ footer div{
     #buttonSearch{
         display: none;
     }
+
+    header{
+        background-position: center;
+    
+    }
+  
+      #title-banner{
+          font-size: 50px;
+    }
+
+
+
+
+     /* ARTICLES ACCEUIL */
+
+   .citationaccueil p{
+    font-size: 20px;
+    }
+
+
+    .article{
+        flex-direction: column;
+        
+    }
+    
+    .imagepokemon, .imagedragonball, .imagesonic{
+        width: 90%;
+    }
+
+    body{
+        background:white;
+        }
+
+    .article a {
+        margin-bottom: 20px;
+    }
+
+
+
+    img.phototeam {
+        max-width: 80%;
+    }
+
+
+
+    /*TEMOIGNAGE MOBILE*/
+    .temoin1,
+    .temoin2,
+    .temoin3 {
+       padding: 0 7em 0 7em;
+       border-radius: 0% 0% 215% 215%;
+       margin: 1.5em 0;
+    }
+    .temoin-pic1,
+    .temoin-pic2,
+    .temoin-pic3 {
+       height: 5em;
+    }
+    .temoin div {
+       align-self: center;
+    }
+    .temoin-pic3,
+    .temoin-pic2,
+    .temoin-pic1 {
+       align-self: center;
+    }
+    .authorMiddle {
+       margin-top: 25px;
+       margin-left: 150px;
+       margin-right: 20%;
+    }
+    .temoin div p {
+       align-self: inherit;
+       font-size: 15px;
+       white-space: nowrap;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /*PAGE ARTICLES*/
 
     .texteArticle{
         font-size: 0.8em;
@@ -482,52 +626,67 @@ footer div{
     
     .authorSection{
         display: block;
-        width: 90%;
+        width: 80%;
         padding: 30px 0;   
     }
 
-
-    /*TEMOIN*/
-    
     .profil{
         display: block;
-        width: 100px;
+        height: 8em;
         margin-right: auto;
         margin-left: auto;
         left: 0%;
     }
 
-    .temoin1, .temoin2, .temoin3{
-        padding: 0 7em 0 7em;
-        border-radius: 0% 0% 215% 215%;
-        margin: 1.5em 0;
+
+
+
+    /* PAGE FORMULAIRE */
+    .col-3{
+        display: flex;
+        flex-direction: column;
+        width: 62%;
+        margin: 0 auto;
+        position: relative;
+     }
+     input[value="Envoyer"] {
+        padding: 5px 20px;
+        cursor: pointer;
+        border: 1px;
+        margin-top: 1em;
+        margin-left: 20%;
+     }
+
+     input{
+        margin: 5px; 
+     }
+     .texteapropos{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     br {
+        line-height: 1.5;
+     }
+    .boutonformu{
+        text-align: center;
     }
-    .temoin-pic1, .temoin-pic2, .temoin-pic3{
-        height: 5em;
-    }
-    .temoin div{
-        align-self: center;
-    }
-    .temoin-pic3, .temoin-pic2, .temoin-pic1{
-        align-self: center;
-    }
-    .authorMiddle{
-        margin-top: 25px;
-        margin-left: 150px;
-        margin-right: 20%;
-    }
-    .temoin div p{
-        align-self: inherit;
-        font-size: 20px;
-        white-space: nowrap;
-    }
+
+
+
+
+
+
 
 
    
-   /*footer*/
+   /*FOOTER*/
     
    footer>*{
        font-size: 0.6em;
+   }
+   footer{
+    padding: 0.2em 0;
    }
 
   .div-footer{
@@ -536,6 +695,13 @@ footer div{
 
    footer div{
        padding-left: 20px;
+   }
+   footer a{
+       font-size: 1.4em;
+   }
+   footer p{
+       font-size: 1.6em;
+       font-weight: 400;
    }
 
     .github{
@@ -549,48 +715,13 @@ footer div{
     .reseaux{
         flex-direction: row;
     }
-      
-    
-
-   
-     br {
-       line-height: 1.5;
-   }  
-   
-  /* Navigation */
-
-   header{
-      background-position: center;
-
-    
+    .Partenaires{
+        display: none;
     }
 
-    #title-banner{
-        font-size: 50px;
+    .artists img{
+        height: 12em;
     }
-
-   /* Articles */
-
-   .citationaccueil p{
-       font-size: 20px;
-   }
-
-
-    .article{
-        flex-direction: column;
         
-    }
-    
-    .imagepokemon, .imagedragonball, .imagesonic{
-        width: 90%;
-    }
-
-    body{
-        background:white;
-        }
-
-    .article a {
-        margin-bottom: 20px;
-    }
 }
 
