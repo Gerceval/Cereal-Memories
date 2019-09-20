@@ -1,16 +1,16 @@
 /*css commun*/
 
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
 
-body{
+body {
     background-color: #d6f2fb
 }
 
-a{
+a {
     color: white;
     text-decoration: none;
 }
@@ -18,56 +18,51 @@ a{
 
 /*Navigation*/
 
-#logo{
+#logo {
     width: 1.5em;
 }
 
-
-.items-nav{
-    display: flex; 
+.items-nav {
+    display: flex;
     justify-content: space-between;
-    align-items: baseline;        
+    align-items: baseline;
 }
 
-header{
+header {
     background-image: url(ressources/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-
-.div-nav{
+.div-nav {
     display: flex;
-    align-items: baseline;    
+    align-items: baseline;
 }
 
-.div-nav a{
+.div-nav a {
     font-weight: 700;
     color: white;
     list-style: none;
-    padding: 0.5em;   
+    padding: 0.5em;
 }
 
-#title-banner{
+#title-banner {
     font-family: 'Kalam', cursive;
     font-size: 70px;
     text-align: center;
     padding: 2em 0;
-    color: white;    
+    color: white;
 }
-
 
 .citationaccueil p {
-	text-align: center;
-	margin: 80px 10px 80px 10px;
-	color: #0e8fba;
-	font-size: 30pt; 
+    text-align: center;
+    margin: 80px 10px 80px 10px;
+    color: #0e8fba;
+    font-size: 30pt;
 }
-
 
 
 /*Articles*/
-
 
 .cartoonimg {
     border-radius: 8px;
@@ -76,28 +71,27 @@ header{
     object-fit: cover;
 }
 
-
-
-.article{
+.article {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.articlesacceuil{
+.articlesacceuil {
     color: black;
     margin: 20px 4px 50px 4px;
     padding: 8px;
     border-radius: 8px;
-
 }
 
-.imagepokemon, .imagedragonball, .imagesonic{
+.imagepokemon,
+.imagedragonball,
+.imagesonic {
     width: 33%;
     margin-left: 4px;
     margin-right: 4px;
-    background:white;
-    padding: 0;     
+    background: white;
+    padding: 0;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -114,9 +108,7 @@ header{
     margin: 20px 0px 20px 0px;
 }
 
-
-
-.articlesacceuil a{
+.articlesacceuil a {
     background-color: #0e8fba;
     margin-top: 4px;
     margin-bottom: 15px;
@@ -126,122 +118,137 @@ header{
     color: white;
 }
 
-.articlesacceuil a:hover{
+.articlesacceuil a:hover {
     background-color: #62d8ff;
 }
 
-.articlesacceuil h2{
-    color:#0e8fba;
+.articlesacceuil h2 {
+    color: #0e8fba;
 }
 
 
 /*TEMOIGNAGE DESKTOP*/
 
 #section-temoin {
-   background-color: #d6f2fb;
+    background-color: #d6f2fb
 }
+
 .temoin {
-   display: flex;
-   flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
+
 .temoin div {
-   background-color: white;
-   text-align: center;
-   padding-top: 1em;
-   width: 40vw;
+    background-color: white;
+    text-align: center;
+    padding-top: 1em;
+    width: 40vw;
 }
+
 .temoin div p {
-   font-size: 25px;
+    font-size: 25px;
 }
+
 .temoin1,
 .temoin2,
 .temoin3 {
-   display: flex;
-   flex-direction: column;
-   border-bottom-style: solid;
-   border-bottom-width: 10px;
-   border-color: rgb(97, 175, 248);
+    display: flex;
+    flex-direction: column;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    border-color: rgb(97, 175, 248);
 }
+
 .temoin1 {
-   margin-top: 4vw;
-   justify-content: flex-start;
-   border-radius: 0% 15% 215% 0%;
+    margin-top: 4vw;
+    justify-content: flex-start;
+    border-radius: 0% 15% 215% 0%;
 }
+
 .temoin2 {
-   align-self: flex-end;
-   border-radius: 15% 0% 0% 215%;
+    align-self: flex-end;
+    border-radius: 15% 0% 0% 215%;
 }
+
 .temoin3 {
-   justify-content: flex-start;
-   border-radius: 0% 15% 215% 0%;
-   margin-bottom: 4vw;
+    justify-content: flex-start;
+    border-radius: 0% 15% 215% 0%;
+    margin-bottom: 4vw;
 }
+
 .temoin-pic1,
 .temoin-pic2,
 .temoin-pic3 {
-   border-radius: 50%;
-   height: 12vw;
-   transition: all 1s ease;
+    border-radius: 50%;
+    height: 12vw;
+    transition: all 1s ease;
 }
+
 .temoin-pic1 {
-   align-self: flex-end;
+    align-self: flex-end;
 }
+
 .temoin-pic2 {
-   align-self: flex-start;
+    align-self: flex-start;
 }
+
 .temoin-pic3 {
-   align-self: flex-end;
+    align-self: flex-end;
 }
+
 .temoin-pic1:hover {
-   -webkit-transform: scale(1.2);
-   -ms-transform: scale(1.2);
-   transform: scale(1.2) rotateZ(+10deg);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2) rotateZ(+10deg);
 }
+
 .temoin-pic2:hover {
-   -webkit-transform: scale(1.2);
-   -ms-transform: scale(1.2);
-   transform: scale(1.2) rotateZ(+10deg);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2) rotateZ(+10deg);
 }
+
 .temoin-pic3:hover {
-   -webkit-transform: scale(1.2);
-   -ms-transform: scale(1.2);
-   transform: scale(1.2) rotateZ(+10deg);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2) rotateZ(+10deg);
 }
+
 .author {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   font-size: 22px;
-   margin-top: 25px;
-   margin-left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    margin-top: 25px;
+    margin-left: 150px;
 }
+
 .authorMiddle {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   font-size: 22px;
-   margin-top: 25px;
-   margin-right: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    margin-top: 25px;
+    margin-right: 150px;
 }
+
 .titreDA {
-   margin-top: 8px;
-   font-size: 12px;
-   color: grey;
+    margin-top: 8px;
+    font-size: 12px;
+    color: grey;
 }
-
-
 
 
 /*page article*/
 
-.articleTitle{
+.articleTitle {
     font-size: 3em;
     letter-spacing: 0.4em;
     text-align: center;
     margin: 90px auto 50px auto;
 }
 
-.imgDragon{
+.imgDragon {
     width: 650px;
     display: block;
     margin: 50px auto;
@@ -254,165 +261,203 @@ header{
     line-height: 1.7em
 }
 
-.texteArticle span{
+.texteArticle span {
     font-weight: 600;
 }
 
-.sources, .discoverLinks{
+.sources,
+.discoverLinks {
     width: 45%;
     margin: 50px auto;
 }
 
-.sources{
+.sources {
     text-align: right;
 }
-.linksArticles{
+
+.linksArticles {
     list-style: none;
     font-size: 0.8em;
     font-style: italic;
 }
 
-.linksArticles a{
+.linksArticles a {
     text-decoration: none;
     color: black
 }
 
 
-
-
-
 /* page article auteur de l'article*/
 
-.citation{
+.citation {
     font-size: 0.8em;
     font-style: italic;
     line-height: 1.7em;
-    
 }
 
-.authorSection{
+.authorSection {
     display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 45%
-    
-      
 }
 
-.sectionauteur{
+.sectionauteur {
     padding: 2em 0;
     background-color: white;
-    
 }
 
-
-.profil{
-   margin-top: 1em; 
-   margin-right: 2em;
-   border-radius: 50%;
-   height: 10em;
-   
-
+.profil {
+    margin-top: 1em;
+    margin-right: 2em;
+    border-radius: 50%;
+    height: 10em;
 }
 
 
 /*PAGE FORMULAIRE*/
 
+
 /*Titres formulaire */
+
 .titrescontact {
     font-size: 3em;
     letter-spacing: 0.4em;
     text-align: center;
     margin: 90px auto 50px auto;
-    text-align:center
-   
+    text-align: center
 }
+
 
 /* A propos */
 
+.texteapropos {
+    display: block;
+    margin: 70px auto;
+    line-height: 1.7em;
+    width: 60%;
+}
 
-  .texteapropos{
-      display: block;
-      margin: 70px auto;
-      line-height: 1.7em;
-      width: 60%;
-
-  }
-  #partagezavecnous {
-    font-weight: bold;
-  }
-  #lateam {
-    text-align: right;
-  }
-  
-  img.phototeam {
-      display: block;
-      border-radius: 30px;
-      margin: 50px auto;
-    }
-  
 #partagezavecnous {
     font-weight: bold;
-      }
- #lateam {
+}
+
+#lateam {
     text-align: right;
- }
+}
+
+img.phototeam {
+    display: block;
+    border-radius: 30px;
+    margin: 50px auto;
+}
+
+#partagezavecnous {
+    font-weight: bold;
+}
+
+#lateam {
+    text-align: right;
+}
+
 
 /* Formulaire */
 
-.arriereplanformulaire{
- background-color: white;
- padding-top: 0.5px;
- padding-bottom: 40px;
+.arriereplanformulaire {
+    background-color: white;
+    padding-top: 0.5px;
+    padding-bottom: 40px;
 }
 
-:focus{outline: none;}
-
-.col-3{
-  display: flex;
-  flex-direction: column;
-  width: 27.33%; 
-  margin: 40px 36%; 
-  position: relative;
-  } 
-
-
-input[type="text"]{
-  font-family: 'Montserrat', sans-serif;
-  color: #333; 
-  box-sizing: border-box; 
-  letter-spacing: 1px;
+:focus {
+    outline: none;
 }
 
+.col-3 {
+    display: flex;
+    flex-direction: column;
+    width: 27.33%;
+    margin: 40px 36%;
+    position: relative;
+}
+
+input[type="text"] {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
 
 #partagezavecnous {
-  font-weight: bold;
+    font-weight: bold;
 }
+
 #lateam {
-  text-align: right;
+    text-align: right;
 }
 
+.effect-8~.focus-border:before,
+.effect-8~.focus-border:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #62d8ff;
+    transition: 0.4s;
+}
 
-.effect-8 ~ .focus-border:before,
-.effect-8 ~ .focus-border:after{content: ""; position: absolute; top: 0; left: 0; width: 0; height: 2px; background-color: #62d8ff; transition: 0.4s;}
-.effect-8 ~ .focus-border:after{top: auto; bottom: 0; left: auto; right: 0;}
-.effect-8 ~ .focus-border i:before,
-.effect-8 ~ .focus-border i:after{content: ""; position: absolute; top: 0; left: 0; width: 2px; height: 0; background-color: #62d8ff; transition: 0.5s;}
-.effect-8 ~ .focus-border i:after{left: auto; right: 0; top: auto; bottom: 0;}
-.effect-8:focus ~ .focus-border:before,
-.effect-8:focus ~ .focus-border:after{width: 100%; transition: 0.4s;}
-.effect-8:focus ~ .focus-border i:before,
-.effect-8:focus ~ .focus-border i:after{height: 100%; transition: 0.5s;}
+.effect-8~.focus-border:after {
+    top: auto;
+    bottom: 0;
+    left: auto;
+    right: 0;
+}
+
+.effect-8~.focus-border i:before,
+.effect-8~.focus-border i:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 0;
+    background-color: #62d8ff;
+    transition: 0.5s;
+}
+
+.effect-8~.focus-border i:after {
+    left: auto;
+    right: 0;
+    top: auto;
+    bottom: 0;
+}
+
+.effect-8:focus~.focus-border:before,
+.effect-8:focus~.focus-border:after {
+    width: 100%;
+    transition: 0.4s;
+}
+
+.effect-8:focus~.focus-border i:before,
+.effect-8:focus~.focus-border i:after {
+    height: 100%;
+    transition: 0.5s;
+}
 
 textarea {
-    min-height : 180px;
+    min-height: 180px;
     border-radius: 5px;
-   }
+}
+
 
 /*bouton envoyer */
-.boutonformu{
+
+.boutonformu {
     text-align: center;
 }
+
 input[value="Envoyer"] {
     background-color: #d6f2fb;
     padding: 12px 45px;
@@ -423,305 +468,245 @@ input[value="Envoyer"] {
     outline: none;
     margin: 0;
     font-weight: bold;
- }
- input[value="Envoyer"]:hover {
-   color: white;
-  background-color: #0e8fba;
- }
+}
 
-button{
+input[value="Envoyer"]:hover {
+    color: white;
+    background-color: #0e8fba;
+}
+
+button {
     border: none;
-    background-color: rgba(255,255,255,0);
+    background-color: rgba(255, 255, 255, 0);
     color: white;
     font-weight: bolder;
     font-family: 'Aleo', serif;
 }
 
-
-footer{
+footer {
     background-color: #0e8fba;
-    
 }
 
-#logo-footer{
+#logo-footer {
     height: 7em;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: space-evenly;
     padding-top: 20px;
     width: 100%;
-    
-    
 }
 
-footer p{
-    color:#62d8ff;
+footer p {
+    color: #62d8ff;
 }
-footer div{
+
+footer div {
     display: flex;
     flex-direction: column;
     padding: 10px 40px;
-
 }
 
-.reseaux{
+.reseaux {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
 }
-.icone{
+
+.icone {
     width: 2em;
     margin: 5px;
 }
+
 .titreCredits {
     font-size: 3em;
     letter-spacing: 0.4em;
     text-align: center;
     margin: 90px auto 50px auto;
-    text-align:center
+    text-align: center
 }
-.artists li{
+
+.artists li {
     display: flex;
     flex-direction: column;
 }
-.artists a{
+
+.artists a {
     color: #0e8fba;
     text-align: center;
     font-size: 22px;
     margin: 2em 0;
 }
-.artists img{
+
+.artists img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-
-@media screen and (max-width: 640px){
-
-
+@media screen and (max-width: 640px) {
     /*NAVIGATION*/
-
-    .div-nav a{
+    .div-nav a {
         font-size: 0.7em;
     }
-
-    #site-search{
+    #site-search {
         display: none;
     }
-
-    #buttonSearch{
+    #buttonSearch {
         display: none;
     }
-
-    header{
+    header {
         background-position: center;
-    
     }
-  
-      #title-banner{
-          font-size: 50px;
+    #title-banner {
+        font-size: 50px;
     }
-
-
-
-
-     /* ARTICLES ACCEUIL */
-
-   .citationaccueil p{
-    font-size: 20px;
+    /* ARTICLES ACCEUIL */
+    .citationaccueil p {
+        font-size: 20px;
     }
-
-
-    .article{
+    .article {
         flex-direction: column;
-        
     }
-    
-    .imagepokemon, .imagedragonball, .imagesonic{
+    .imagepokemon,
+    .imagedragonball,
+    .imagesonic {
         width: 90%;
     }
-
-    body{
-        background:white;
-        }
-
+    body {
+        background: white;
+    }
     .article a {
         margin-bottom: 20px;
     }
-
-
-
     img.phototeam {
         max-width: 80%;
     }
-
-
-
     /*TEMOIGNAGE MOBILE*/
     .temoin1,
     .temoin2,
     .temoin3 {
-       padding: 0 7em 0 7em;
-       border-radius: 0% 0% 215% 215%;
-       margin: 1.5em 0;
+        padding: 0 7em 0 7em;
+        border-radius: 0% 0% 215% 215%;
+        margin: 1.5em 0;
     }
     .temoin-pic1,
     .temoin-pic2,
     .temoin-pic3 {
-       height: 5em;
+        height: 5em;
     }
     .temoin div {
-       align-self: center;
+        align-self: center;
     }
     .temoin-pic3,
     .temoin-pic2,
     .temoin-pic1 {
-       align-self: center;
+        align-self: center;
     }
     .authorMiddle {
-       margin-top: 25px;
-       margin-left: 150px;
-       margin-right: 20%;
+        margin-top: 25px;
+        margin-left: 150px;
+        margin-right: 20%;
     }
     .temoin div p {
-       align-self: inherit;
-       font-size: 15px;
-       white-space: nowrap;
+        align-self: inherit;
+        font-size: 15px;
+        white-space: nowrap;
     }
-
-
-
-
-
-
-
-
-
-
-
     /*PAGE ARTICLES*/
-
-    .texteArticle{
+    .texteArticle {
         font-size: 0.8em;
         width: 70%;
     }
-
-    .imgDragon{
+    .imgDragon {
         width: 360px;
     }
-
-    .sources, .discoverLinks{
+    .sources,
+    .discoverLinks {
         width: 90%;
         margin: 30px auto;
         font-size: 0.7em;
     }
-
-
-    .citation{
+    .citation {
         margin-top: 30px;
         font-size: 0.6em;
     }
-    
-    .authorSection{
+    .authorSection {
         display: block;
         width: 80%;
-        padding: 30px 0;   
+        padding: 30px 0;
     }
-
-    .profil{
+    .profil {
         display: block;
         height: 8em;
         margin-right: auto;
         margin-left: auto;
         left: 0%;
     }
-
-
-
-
     /* PAGE FORMULAIRE */
-    .col-3{
+    .col-3 {
         display: flex;
         flex-direction: column;
         width: 62%;
         margin: 0 auto;
         position: relative;
-     }
-     input[value="Envoyer"] {
+        border-radius: 5px;
+    }
+    input[value="Envoyer"] {
         padding: 5px 20px;
         cursor: pointer;
         border: 1px;
         margin-top: 1em;
         margin-left: 20%;
-     }
-
-     input{
-        margin: 5px; 
-     }
-     .texteapropos{
+        border-radius: 5px;
+    }
+    input {
+        margin: 5px;
+    }
+    .texteapropos {
         width: 70%;
         margin-left: auto;
         margin-right: auto;
-     }
-     br {
+    }
+    br {
         line-height: 1.5;
-     }
-    .boutonformu{
+    }
+    .boutonformu {
         text-align: center;
     }
-
-
-
-
-
-
-
-
-   
-   /*FOOTER*/
-    
-   footer>*{
-       font-size: 0.6em;
-   }
-   footer{
-    padding: 0.2em 0;
-   }
-
-  .div-footer{
-       padding: 0;
-   }
-
-   footer div{
-       padding-left: 20px;
-   }
-   footer a{
-       font-size: 1.4em;
-   }
-   footer p{
-       font-size: 1.6em;
-       font-weight: 400;
-   }
-
-    .github{
+    /*FOOTER*/
+    footer>* {
+        font-size: 0.6em;
+    }
+    footer {
+        padding: 0.2em 0;
+    }
+    .div-footer {
+        padding: 0;
+    }
+    footer div {
+        padding-left: 20px;
+    }
+    footer a {
+        font-size: 1.4em;
+    }
+    footer p {
+        font-size: 1.6em;
+        font-weight: 400;
+    }
+    .github {
         display: none;
     }
-
-    #logo-footer{
+    #logo-footer {
         display: none;
     }
-
-    .reseaux{
+    .reseaux {
         flex-direction: row;
     }
-    .Partenaires{
+    .Partenaires {
         display: none;
     }
-
-    .artists img{
+    .artists img {
         height: 12em;
     }
-        
 }
-
